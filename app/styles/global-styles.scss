@@ -1,8 +1,9 @@
 @import './global-styles.base';
 
+$headerButtonColor: red;
 
 @mixin web {
-  @content;
+    @content;
 }
 
 @mixin android {}

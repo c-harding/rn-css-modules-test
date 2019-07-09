@@ -1,5 +1,6 @@
-@import './config/global-styles';
+@import 'styles/global-styles';
 
 .emptyComponentText {
-  text-align: center;
+    text-align: center;
+    background-color: $headerButtonColor;
 }
