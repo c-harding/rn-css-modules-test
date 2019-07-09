@@ -1,0 +1,10 @@
+@import './global-styles.base';
+
+
+@mixin web {
+  @content;
+}
+
+@mixin android {}
+
+@mixin ios {}

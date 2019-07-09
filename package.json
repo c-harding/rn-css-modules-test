@@ -1,0 +1,65 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "babel": {
+    "presets": [
+      "babel-preset-expo"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ],
+      "react-native-classname-to-style",
+      [
+        "react-native-platform-specific-extensions",
+        {
+          "extensions": [
+            "scss"
+          ]
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@react-navigation/core": "^3.4.2",
+    "@react-navigation/native": "^3.5.0",
+    "@react-navigation/web": "^1.0.0-alpha.9",
+    "expo": "33.0.7",
+    "expo-cli": "^2.21.1",
+    "metro-config": "^0.55.0",
+    "react": "16.8.3",
+    "react-dom": "^16.8.6",
+    "react-native": ">=0.57 <0.60",
+    "react-native-gesture-handler": "~1.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/react": "^16.8.22",
+    "@types/react-native": "^0.60.0",
+    "@types/react-navigation": "^3.0.7",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-react-native-classname-to-style": "^1.2.2",
+    "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
+    "babel-plugin-react-native-web": "^0.11.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-expo": "^5.2.0",
+    "node-sass": "^4.12.0",
+    "react-native-typed-sass-transformer": "^0.11.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.3"
+  },
+  "private": true
+}

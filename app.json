@@ -1,0 +1,32 @@
+{
+  "name": "RN CSS Modules Test",
+  "expo": {
+    "name": "RN CSS Modules Test",
+    "slug": "RnCssModulesTest",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "ts", "tsx"],
+      "transformer": "node_modules/react-native-typed-sass-transformer/index.js"
+    },
+    "platforms": ["ios", "android", "web"],
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "me.xsanda.rn-css-modules-test",
+      "supportsTablet": true
+    },
+    "description": ""
+  }
+}

@@ -1,0 +1,11 @@
+@import './global-styles.base';
+
+$headerButtonColor: white;
+
+@mixin web {}
+
+@mixin android {
+  @content;
+}
+
+@mixin ios {}
