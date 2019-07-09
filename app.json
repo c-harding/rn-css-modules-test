@@ -6,9 +6,7 @@
     "privacy": "public",
     "sdkVersion": "33.0.0",
     "packagerOpts": {
-      "config": "metro.config.js",
-      "sourceExts": ["js", "ts", "tsx"],
-      "transformer": "node_modules/react-native-typed-sass-transformer/index.js"
+      "config": "metro.config.js"
     },
     "platforms": ["ios", "android", "web"],
     "version": "0.1.0",
