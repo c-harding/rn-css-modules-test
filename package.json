@@ -38,7 +38,7 @@
     "metro-config": "^0.55.0",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
-    "react-native": ">=0.57 <0.60",
+    "react-native": ">=0.57 <0.63",
     "react-native-gesture-handler": "~1.2.1"
   },
   "devDependencies": {
