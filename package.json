@@ -55,7 +55,7 @@
     "babel-plugin-react-native-web": "^0.11.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-expo": "^5.2.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react-native-typed-sass-transformer": "^0.11.0",
     "tslib": "^1.10.0",
     "typescript": "^3.5.2",
